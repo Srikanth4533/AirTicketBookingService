@@ -1,7 +1,7 @@
 const express = require("express")
 const bodyParser = require("body-parser")
 
-const { PORT } = require("./config/serverConfig")
+const { PORT, FLIGHT_SERVICE_PATH } = require("./config/serverConfig")
 const apiRoutes = require("./routes/index")
 const db = require("./models/index")
 
